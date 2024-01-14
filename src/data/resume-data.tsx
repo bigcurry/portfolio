@@ -18,6 +18,7 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { CalendlyIcon } from "@/components/icons/CalendlyIcon";
 
 export const RESUME_DATA = {
   name: "Bartosz Jarocki",
@@ -38,6 +39,11 @@ export const RESUME_DATA = {
         name: "GitHub",
         url: "https://github.com/BartoszJarocki",
         icon: GitHubIcon,
+      },
+      {
+        name: "Calendly",
+        url: "https://calendly.com/suraj-pabba89/30min",
+        icon: CalendlyIcon,
       },
       {
         name: "LinkedIn",
