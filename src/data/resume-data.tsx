@@ -21,23 +21,23 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import { CalendlyIcon } from "@/components/icons/CalendlyIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Suraj Pabba",
+  initials: "SP",
+  location: "USA",
+  locationLink: "https://www.google.com/maps/place/USA",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Technical Solutions Engineer with a focus in data and technical products",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Experienced technologist with a background in scaling sales and products. Having spent time in sales engineering, I have built processes and worked with customers and product teams to launch new products that exceed revenue goals. I am looking to leverage my diverse experiences to help grow an innovative organization and build with AI",
+  avatarUrl: "https://media.licdn.com/dms/image/D4E03AQHbm0WxDDn2TA/profile-displayphoto-shrink_800_800/0/1687814996739?e=1710979200&v=beta&t=iJG6NzSsGcx1eziRtgDlrVYvYUBFuCqIhq5iq0oRSJQ",
+  personalWebsiteUrl: "https://surajpabba.com",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "hello@surajpabba.com",
+    tel: "",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/big_curry",
         icon: GitHubIcon,
       },
       {
@@ -47,22 +47,22 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/spabba/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/pabba_suraj",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University of Houston",
+      degree: "Management Information Systems || Liberal Arts Honors",
+      start: "2008",
+      end: "2012",
     },
   ],
   work: [
