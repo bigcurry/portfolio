@@ -69,7 +69,7 @@ export const RESUME_DATA = {
     {
       company: "Parenthood",
       //link: "https://parabol.co",
-      badges: ["USA"],
+      badges: [],
       title: "Parent & AI Student",
       //logo: ParabolLogo,
       start: "2023",
@@ -80,7 +80,7 @@ export const RESUME_DATA = {
     {
       company: "Salesforce",
       link: "https://Salesforce.com",
-      badges: ["Chicago, IL"],
+      badges: [],
       title: "Senior Solutions Engineer @ MuleSoft",
       //logo: ClevertechLogo,
       start: "2021",
@@ -89,196 +89,88 @@ export const RESUME_DATA = {
         "Led the presales process from technical discovery to close for all enterprise and strategic (10,000+ employees) customers in MuleSoft's HLS Business Unit",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "project44",
+      link: "https://project44.com//",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      title: "Senior Solutions Engineer",
+      //logo: JojoMobileLogo,
+      start: "2021",
+      end: "2022",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "project44 is a real time visibility solution for all modes of logistics transportation. As a senior solutions engineer I led the presales process for the project44 platform for a number of clients ",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "iManage",
+      link: "https://imanage.com/",
       badges: [],
-      title: "C/C++ Developer",
+      title: "Solutions Engineer",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      start: "2018",
+      end: "2021",
+      description: "iManage is a platform solution for the legal and finance industry to govern, manage, and detect threats across content. As a solutions engineer I was pivotal during the presales process to help customers understand the value of the solution as it pertained to their use cases.",
+    },    {
+      company: "Uptake",
+      link: "https://uptake.com/",
+      badges: [],
+      title: "Corporate Development / Solutions Engineer",
+      logo: NSNLogo,
+      start: "2016",
+      end: "2018",
+      description: "Uptake is an AI solution for the heavy asset industry. As an early employee I was able to play a variety of roles across product, GTM, and solutions engineering",
     },
   ],
   skills: [
     "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Data Science",
+    "AI",
+    "Go-To-Market",
+    "API Development",
+    "Product Architecture",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Benchmark",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "AWS",
+        "Video Transcription",
+        "Sales Tech",
       ],
-      description: "A platform to build and grow your online business",
+      description: "Benchmark was a startup focused on sales engineers that transcribed video meetings and and provided meeting analysis",
       logo: ConsultlyLogo,
       link: {
         label: "consultly.com",
-        href: "https://consultly.com/",
+        href: "",
       },
-    },
+    },   
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "InField",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Industry 4.o",
+        "Labor Tech",
+        "Machine Learning",
+        "Vision Technology",
       ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+      description: "InField was a startup focused on improving skilled labors training and implementation of complex assets by utilizing machine learning visual technology to ensure project certification",
+      logo: ConsultlyLogo,
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "consultly.com",
+        href: "",
       },
     },
     {
-      title: "Evercast",
+      title: "Groom Therapy",
       techStack: [
-        "Lead Frontend Developer",
+        "Consumer",
+        "Services",
+        "Web Tech",
+      ],
+      description: "Groom Therapy was a solution to help grooms parties with their hair and personal care at their wedding venue. We connected barbers to grooms and allowed for personal care at the wedding venue",
+      logo: ConsultlyLogo,
+      link: {
+        label: "consultly.com",
+        href: "",
+      },
+    },
 
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
   ],
 } as const;
